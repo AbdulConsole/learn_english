@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    margin-top: 200px;
+    padding: 0;
+    /*background: #292d3f;*/
+    background: url("../media/bg.jpg");
+    background-size: fit;
+    text-align: center;
+}
+#lives { 
+    font-size: 5.5vmin;
+    text-align: left;
+    margin-left: 5.5vmin;
+    color: white;
+}
+#buy {
+    font-size: 5.5vmin;
+    text-align: center;
+    margin-left: 30vmin;
+    margin-top: -13vmin;
+    color: black;
+    background-color: white;
+    height: 6.5vmin;
+    width: 6.5vmin;
+    border: solid white;
+    border-radius: 50%;
+}
+#btn1,#btn2,#btn3,#btn4 {
+    font-size: 7vmin;
+    padding: 3vmin;
+    width: 82vw;
+    margin: 2vmin 4vmin;
+    border-radius: 2vmin;
+    background-color: white;
+    color: black;  /*#1F83FD*/
+    border: solid Gray 0.3vmin;
+}
+#scores {
+    font-size: 5.5vmin;
+    text-align: right;
+    margin-right: 6vmin;
+    margin-top: -12.5vmin;
+    color: white;
+}
+
+#q {
+    font-size: 7vmin;
+    margin: 8vmin 2vmin 5vmin 2vmin;
+    color: lightslategray; /*  #5ab0f2; */
+}
+#result {
+    font-size: 10vmin;
+    margin: 15vmin 2vmin 5vmin 2vmin;
+    color:  white;
+}
+#foot {
+    font-size: 7vmin;
+    padding: 3vmin;
+    width: 82vw;
+    margin: 2vmin 4vmin;
+    border-radius: 2vmin;
+    background-color: white;
+    color: black;  /*#1F83FD*/
+    border: solid Gray 0.3vmin;
+    
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>English Grammar Test</title>
+      <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+      <audio src="assets\media\bg_music.mp3" autoplay="true"></audio>
+      
+      <div class="night">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+      </div>
+    
+      <p id="lives"></p> 
+      <p id="buy" onclick="buy()">+</p>
+      <p id="scores"></p>
+      <p id="time"></p> <!-- time -->
+      <p id="q"></p>  
+      <div id="btn1" onclick="btn01()"></div>
+      <div id="btn2" onclick="btn02()"></div>
+      <div id="btn3" onclick="btn03()"></div>
+      <div id="btn4" onclick="btn04()"></div>
+      <p id="result"></p>
+      <p id="foot">By Abdull Console</p>
+      
+    
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
+    <script>
+      swal("English Grammar Test","☆ You'll get 3 lives at the start of the test. \n\n☆ Correct answer will give you 10 points. \n\n☆ Wrong answer will reduce 1 life. \n\n☆ You can also buy 1 life using 50 points. Just click on the '+' symbol.")
+    </script> 
+    </body>
+</html>
